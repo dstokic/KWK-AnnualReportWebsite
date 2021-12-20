@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.sec-one{
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: rgb(247, 247, 247);
+  padding: 2em 2em;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.sec-two{
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: rgb(247, 247, 247);
+  padding: 2em 2em;
+  margin-top: 2em;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.sec-two p{
+  text-align: right;
+}
+.sec-two h3{
+  text-align: right;
+  color: rgb(75, 224, 122);
+  font-weight: 900;
+}
+
+.sec-one h3{
+  color: rgb(75, 224, 122);
+  font-weight: 900;
+}
+
+/*New NavBar CSS*/
+.nav-bar {
+  background-color: rgb(51, 51, 51);
+  color: black;
+  position: fixed;
+  text-align: center;
+  padding: 5px;
+  top: 0px;
+  left: 0px;
+  width: 19em;
+  height: 100%;
+}
+
+.nav-bar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.nav-bar li {
+  padding: 1em 0em;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+.nav-bar h1{
+  font-size: 2em;
+  font-weight: 1000;
+  padding: 1em 1em;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  margin: 0em 0em;  
+}
+
+.nav-bar a{
+  display: block;
+  padding: 10px 30px;
+  color:  white;
+  text-decoration: none;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  background-color:rgb(51, 51, 51);
+}
+
+.nav-bar a:hover{
+  background-color: rgb(71, 71, 71);
+  color: rgb(75, 224, 122);
+}
+
+.nav-bar img{
+  width: 7.5em;
+  height: auto;
+}
+
+/*Main Page of the Document*/
+.main-doc{
+  position: absolute;
+  margin-left: 330px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.main-doc .section h2{
+  text-align: center;
+}
+
+.main-doc #setOfImages{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  border: 3px solid rgb(201, 236, 212);
+  padding: 1em 1em;
+  margin: 7em 0em 7em;
+}
+
+.main-doc #setOfImages2 img:hover{
+  opacity: 1;
+}
+
+.main-doc #setOfImages2 img{
+  height: 18vw;
+  width: 22vw;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.main-doc #setOfImages2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  border: 3px solid rgb(201, 236, 212);
+  padding: 1em 1em;
+  margin: 3em 0em 3em;
+}
+
+.main-doc #setOfImages img:hover{
+  opacity: 1;
+}
+
+.main-doc #setOfImages img{
+  height: 18vw;
+  width: 22vw;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.main-doc p{
+  font-size: 20px;
+}
+
+.main-doc h2{
+  font-size: 2em;
+  font-weight: 1000;
+  background: rgb(201, 236, 212);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main-doc #note{
+  margin: 7em 0em 25em;
+}
+
+.main-doc #note #message{
+  text-align: center;
+  padding: 5vw 10vw;
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  margin: auto;
+  width: 60%;
+}
+
+.main-doc #note #message p{
+  font-size: 2vw;
+}
+
+.slide-in-animation{
+  -webkit-animation: slide-in-elliptic-top-fwd 4.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-elliptic-top-fwd 4.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.main-doc #mission{
+  margin: 25em 0em;
+}
+
+.main-doc #mission .side-by-side{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.main-doc #mission .side-by-side p{
+  padding: 0em 2em;
+  font-size: 2.5vw;
+}
+
+.main-doc #mission .missionImages{
+  border: 3px solid rgb(201, 236, 212);
+  padding: 1em 1em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main-doc #mission .missionImages img{
+  height: 14vw;
+  width: 18vw;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.main-doc #mission .missionImages img:hover{
+  opacity: 1;
+}
+
+.main-doc #theNumbers{
+  margin: 25em 0em;
+}
+
+.main-doc #theNumbers img{
+  height: 17vw;
+  width: auto;
+}
+
+.main-doc #theNumbers hold{
+  padding: 2em 2em;
+}
+
+.main-doc #theNumbers hold2{
+  padding: 2em 2em;
+}
+
+.main-doc #theNumbers p{
+  font-size: 2vw;
+}
+.main-doc #theNumbers h3{
+  font-size: 2.5vw;
+}
+
+.main-doc #theFuture{
+  margin: 25em 0em 7em;
+}
+
+.flip-in-ver-right {
+	-webkit-animation: flip-in-ver-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.flip-in-ver-left {
+	-webkit-animation: flip-in-ver-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-ver-left 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-right {
+	-webkit-animation: slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.swirl-in-fwd {
+	-webkit-animation: swirl-in-fwd 3s ease-out both;
+	        animation: swirl-in-fwd 3s ease-out both;
+}
+
+.main-doc #theFuture .futureGroup{
+  text-align: center;
+  padding: 5vw 10vw;
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  margin: auto;
+  width: 60%;
+}
+
+.main-doc #theFuture .futureGroup p{
+  font-size: 2vw;
+}
+
+
+
+/*ANIMATION CODE*/
+/* ----------------------------------------------
+ * Generated by Animista on 2021-12-18 17:27:5
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-elliptic-top-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation flip-in-ver-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+            transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+            transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation flip-in-ver-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes flip-in-ver-left {
+  0% {
+    -webkit-transform: rotateY(80deg);
+            transform: rotateY(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-ver-left {
+  0% {
+    -webkit-transform: rotateY(80deg);
+            transform: rotateY(80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation swirl-in-fwd
+ * ----------------------------------------
+ */
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-540deg) scale(0);
+            transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
